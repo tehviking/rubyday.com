@@ -1,0 +1,29 @@
+.topbar {
+  position: relative;
+  margin-bottom: 20px;
+  height: auto;
+}
+
+.topbar .fill {
+  min-height: 45px;
+  background: #ff8787; /* Old browsers */
+  background: -moz-linear-gradient(top,  #ff8787 0%, #ef4232 65%, #e80606 79%, #e24f4a 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ff8787), color-stop(65%,#ef4232), color-stop(79%,#e80606), color-stop(100%,#e24f4a)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #ff8787 0%,#ef4232 65%,#e80606 79%,#e24f4a 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #ff8787 0%,#ef4232 65%,#e80606 79%,#e24f4a 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #ff8787 0%,#ef4232 65%,#e80606 79%,#e24f4a 100%); /* IE10+ */
+  background: linear-gradient(top,  #ff8787 0%,#ef4232 65%,#e80606 79%,#e24f4a 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8787', endColorstr='#e24f4a',GradientType=0 ); /* IE6-9 */
+}
+
+.topbar .brand {
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
+  font-size: 24px;
+}
+
+.hero-unit {
+  padding-top: 230px;
+  padding-bottom: 10px;
+  background: url('hero.jpg') no-repeat;
+
+}
