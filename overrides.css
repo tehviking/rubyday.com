@@ -16,14 +16,31 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff8787', endColorstr='#e24f4a',GradientType=0 ); /* IE6-9 */
 }
 
+@font-face {
+  font-family: 'CareBearFamilyRegular';
+  src: url('care_bears_font-webfont.eot');
+  src: url('care_bears_font-webfont.eot?#iefix') format('embedded-opentype'),
+       url('care_bears_font-webfont.woff') format('woff'),
+       url('care_bears_font-webfont.ttf') format('truetype'),
+       url('care_bears_font-webfont.svg#CareBearFamilyRegular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .topbar .brand {
+  font-family: "CareBearFamilyRegular", sans-serif;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.75);
-  font-size: 24px;
+  font-size: 28px;
 }
 
 .hero-unit {
-  padding-top: 230px;
+  padding-top: 240px;
   padding-bottom: 10px;
   background: url('hero.jpg') no-repeat;
 
+}
+
+.unpadded {
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
